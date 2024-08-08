@@ -1,5 +1,3 @@
-![](https://github.com/jitbit/AspNetSaml/actions/workflows/dotnet.yml/badge.svg)
-
 # AspNetSaml
 
 Very short and simple SAML 2.0 "consumer" implementation in C#.
@@ -10,7 +8,7 @@ It's a *SAML client* library, not a *SAML server*. As in - allows adding SAML si
 
 `Install-Package AspNetSaml`
 
-Adds a very small .NET Standard 2.0 library (11KB dll) that works with both ASP.NET Core and the "old" ASP.NET Framework. Please refer to [releases](https://github.com/jitbit/AspNetSaml/releases) for the change log.
+Adds a very small .NET Standard 2.0 library (11KB dll) that works with both ASP.NET Core and the "old" ASP.NET Framework. Please refer to [releases](https://github.com/GreenBett/AspNetSaml/releases) for the change log.
 
 # Usage
 
@@ -116,6 +114,6 @@ if (samlResponse.IsValid())
 
 # Notes about the source code
 
-All the functionality sits in one single short file [Saml.cs](https://github.com/jitbit/AspNetSaml/blob/master/AspNetSaml/Saml.cs) other stuff in this repo are just unit tests, nuget-packaging etc. You can take that file and throw it in your project, it should work just fine.
+All the functionality sits in one single short file [Saml.cs](https://github.com/GreenBett/AspNetSaml/blob/master/AspNetSaml/Saml.cs) other stuff in this repo are just unit tests, nuget-packaging etc. You can take that file and throw it in your project, it should work just fine.
 
-P.S. This library has been battle-tested for years in production in our [helpdesk app](https://www.jitbit.com/helpdesk/) please check it out if you're looking for a ticketing system for your team. Cheers.
+P.S. This library has been battle-tested for years in production in our [helpdesk app](https://www.GreenBett.com/helpdesk/) please check it out if you're looking for a ticketing system for your team. Cheers.
